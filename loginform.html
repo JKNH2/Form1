@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
+
+        <script>
+
+          // Initialize Firebase
+
+         var config = {
+
+            apiKey: "AIzaSyC3WxyMcWz0zCfd7nkp1ybWoIvVl-AawQU",
+
+           authDomain: "proyectotest-33116.firebaseapp.com",
+
+            projectId: "proyectotest-33116",
+
+            storageBucket: "proyectotest-33116.appspot.com",
+
+            messagingSenderId: "1030512349335",
+
+            appId: "1:1030512349335:web:66f483f6688df3caef19d2"
+
+
+        };
+
+            firebase.initializeApp(config);
+
+
+        </script>
+        <title>loginform</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <center>
+            <h1>Acceso</h1>
+            <p>Usuario: <input type = "text" name = "email" ></p>
+            <p>Contraseña: <input type = "text" name = "password" ></p>
+            <button name = "submit">enviar</button>
+        </center>
+    </body>
+</html>
